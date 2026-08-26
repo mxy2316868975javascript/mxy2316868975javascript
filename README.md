@@ -71,12 +71,13 @@ I work at the intersection of product delivery and frontend engineering: definin
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
-### Data & Quality
+### Data, Quality & Delivery
 
 <p>
   <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white" alt="ECharts" />
   <img src="https://img.shields.io/badge/AntV-0086FF?style=flat-square&logo=antv&logoColor=white" alt="AntV" />
   <img src="https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white" alt="Cypress" />
+  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD with GitHub Actions" />
 </p>
 
 ## Delivery Record

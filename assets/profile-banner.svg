@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
-  <title id="title">AI workflow console for Meng Xiangyi</title>
+  <title id="title">AI workflow console for Lemon</title>
   <desc id="description">A dark technical banner showing connected AI workflow nodes and system status.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -12,11 +12,83 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+    <style>
+      .flow-packet,
+      .flow-packet-lower,
+      .scan-line,
+      .node-pulse,
+      .status-pulse {
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+
+      .flow-packet {
+        animation: packet-forward 7s linear infinite;
+      }
+
+      .flow-packet-lower {
+        animation: packet-lower 7s linear infinite 2.4s;
+      }
+
+      .scan-line {
+        animation: scan 9s linear infinite;
+      }
+
+      .node-pulse {
+        animation: node-breathe 2.8s ease-in-out infinite;
+      }
+
+      .status-pulse {
+        animation: status-breathe 2.2s ease-in-out infinite;
+      }
+
+      @keyframes packet-forward {
+        0%, 10% { opacity: 0; transform: translate(0, 0); }
+        18% { opacity: 1; }
+        74% { opacity: 1; transform: translate(522px, 0); }
+        92%, 100% { opacity: 0; transform: translate(602px, 0); }
+      }
+
+      @keyframes packet-lower {
+        0%, 10% { opacity: 0; transform: translate(0, 0); }
+        18% { opacity: 1; }
+        54% { opacity: 1; transform: translate(86px, -66px); }
+        86% { opacity: 1; transform: translate(242px, -66px); }
+        100% { opacity: 0; transform: translate(242px, -66px); }
+      }
+
+      @keyframes scan {
+        0%, 8% { opacity: 0; transform: translateX(-4px); }
+        18%, 82% { opacity: 0.55; }
+        92%, 100% { opacity: 0; transform: translateX(1200px); }
+      }
+
+      @keyframes node-breathe {
+        0%, 100% { opacity: 0.72; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.16); }
+      }
+
+      @keyframes status-breathe {
+        0%, 100% { opacity: 0.72; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.13); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .flow-packet,
+        .flow-packet-lower,
+        .scan-line,
+        .node-pulse,
+        .status-pulse {
+          animation: none;
+        }
+      }
+    </style>
   </defs>
 
   <rect width="1200" height="300" fill="#0d1117" />
   <rect width="1200" height="300" fill="url(#grid)" />
   <path d="M0 248 H1200" stroke="#30363d" stroke-width="1" />
+  <rect class="scan-line" x="0" y="0" width="2" height="248" fill="#58a6ff" opacity="0" />
 
   <g fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.8">
     <path d="M650 84 H776 V150 H892" />
@@ -30,11 +102,11 @@
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
     <text x="64" y="68" fill="#8b949e" font-size="15" letter-spacing="2">AI SYSTEMS / FRONTEND ENGINEERING</text>
-    <text x="64" y="126" fill="#f0f6fc" font-size="45" font-weight="700">MENG XIANGYI</text>
+    <text x="64" y="126" fill="#f0f6fc" font-size="45" font-weight="700">LEMON</text>
     <text x="64" y="162" fill="#58a6ff" font-size="19">BUILDING RELIABLE PRODUCTS FROM COMPLEX WORKFLOWS</text>
 
     <rect x="64" y="204" width="190" height="28" fill="#161b22" stroke="#30363d" />
-    <circle cx="82" cy="218" r="5" fill="#3fb950" filter="url(#glow)" />
+    <circle class="status-pulse" cx="82" cy="218" r="5" fill="#3fb950" filter="url(#glow)" />
     <text x="98" y="223" fill="#c9d1d9" font-size="13">SYSTEM ONLINE</text>
     <rect x="270" y="204" width="172" height="28" fill="#161b22" stroke="#30363d" />
     <text x="286" y="223" fill="#c9d1d9" font-size="13">MODE: BUILD</text>
@@ -50,8 +122,13 @@
   </g>
 
   <g fill="#3fb950" filter="url(#glow)">
-    <circle cx="650" cy="150" r="5" />
-    <circle cx="892" cy="150" r="5" />
-    <circle cx="1056" cy="150" r="5" />
+    <circle class="node-pulse" cx="650" cy="150" r="5" />
+    <circle class="node-pulse" cx="892" cy="150" r="5" />
+    <circle class="node-pulse" cx="1056" cy="150" r="5" />
+  </g>
+
+  <g fill="#f0f6fc" filter="url(#glow)">
+    <circle class="flow-packet" cx="534" cy="150" r="4" />
+    <circle class="flow-packet-lower" cx="650" cy="216" r="4" />
   </g>
 </svg>

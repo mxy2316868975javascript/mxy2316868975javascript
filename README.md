@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Meng Xiangyi - Frontend Lead building reliable AI systems" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Lemon - Frontend Lead building reliable AI systems" width="100%" />
 </p>
 
-<h1 align="center">Hi, I'm Meng Xiangyi</h1>
+<h1 align="center">Hi, I'm Lemon</h1>
 
 <p align="center">
   <strong>Frontend Lead · AI Application Engineer · System Builder</strong>
@@ -56,6 +56,9 @@ I work at the intersection of product delivery and frontend engineering: definin
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design" />
   <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white" alt="ECharts" />

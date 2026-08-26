@@ -62,13 +62,14 @@ I work at the intersection of product delivery and frontend engineering: definin
   <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design" />
 </p>
 
-### Backend & Automation
+### Backend, Automation & Extensions
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Browser%20Extensions-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Browser Extensions" />
 </p>
 
 ### Data, Quality & Delivery

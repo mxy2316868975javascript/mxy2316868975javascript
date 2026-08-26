@@ -77,6 +77,8 @@ I work at the intersection of product delivery and frontend engineering: definin
 <p>
   <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white" alt="ECharts" />
   <img src="https://img.shields.io/badge/AntV-0086FF?style=flat-square&logo=antv&logoColor=white" alt="AntV" />
+  <img src="https://img.shields.io/badge/Highcharts-8085E9?style=flat-square&logo=highcharts&logoColor=white" alt="Highcharts" />
+  <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white" alt="D3.js" />
   <img src="https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white" alt="Cypress" />
   <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD with GitHub Actions" />
 </p>

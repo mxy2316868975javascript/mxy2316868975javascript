@@ -34,6 +34,15 @@ BASE       Shanghai, China
 
 I work at the intersection of product delivery and frontend engineering: defining the architecture, shaping the user flow, and carrying the system through real operational complexity.
 
+## How I Work
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 680px)" srcset="./assets/operating-model-compact.svg" />
+    <img src="./assets/operating-model.svg" alt="Operational blueprint: Idea, Requirement Decomposition, Technical Design, AI Orchestration, Validation, Integration, Deployment, and Iteration." width="100%" />
+  </picture>
+</p>
+
 ## What I Build
 
 | Area | What it means in practice |
